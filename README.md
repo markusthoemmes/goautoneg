@@ -1,6 +1,7 @@
 # goautoneg
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/markusthoemmes/goautoneg)](https://goreportcard.com/report/github.com/markusthoemmes/goautoneg)
+[![CircleCI](https://circleci.com/gh/markusthoemmes/goautoneg.svg?style=svg)](https://circleci.com/gh/markusthoemmes/goautoneg)
 
 This is a complete rewrite of https://bitbucket.org/ww/goautoneg and aims to be a drop-in replacement of that module. The aforementioned repository seems unmaintained with the last commit having been done on **2012-07.07**.
 
