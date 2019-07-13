@@ -1,10 +1,12 @@
 # goautoneg
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/markusthoemmes/goautoneg)](https://goreportcard.com/report/github.com/markusthoemmes/goautoneg)
+
 This is a complete rewrite of https://bitbucket.org/ww/goautoneg and aims to be a drop-in replacement of that module. The aforementioned repository seems unmaintained with the last commit having been done on **2012-07.07**.
 
 The `Negotiate` function is not implemented currently because a quick search resulted in the `ParseAccept` function being used in the majority of cases.
 
-Ultimately, we should end up with this implementation being internalized in Go's standard library. The [proposal for that has already been accepted](https://github.com/golang/go/issues/19307) and it's a matter of time for it to land.
+Ultimately, we should end up with this implementation being internalized in Go's standard library. The [proposal for that has already been accepted](https://github.com/golang/go/issues/19307) and it's a matter of time for it to land. This is mostly a stop-gap until that happens.
 
 ## Why do this?
 
