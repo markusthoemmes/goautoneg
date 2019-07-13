@@ -40,11 +40,7 @@ func TestParseAccept(t *testing.T) {
 	}, {
 		name:   "broken parameter",
 		header: "text/plain;q=0.3;doggo",
-		want:   []Accept{accept("text", "plain", 0.3, empty)},
-	}, {
-		name:   "spaces",
-		header: "  text  /  html  ;  level  =  2  ;  q  =0.4  ",
-		want:   []Accept{accept("text", "html", 0.4, map[string]string{"level": "2"})},
+		want:   []Accept{},
 	}, {
 		name:   "rfc2616 simple",
 		header: "audio/*; q=0.2, audio/basic",
